@@ -28,7 +28,7 @@ button:
       - switch.turn_on: mmwave_sensor
 
   - platform: template
-    name: "Set mmWave Latency" mm
+    name: "Set mmWave Latency"
     id: set_mmwave_latency
     entity_category: config
     set_action:
