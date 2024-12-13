@@ -14,6 +14,10 @@ substitutions:
   factory_reset_disabled: "true"
   uart_target_output_disabled: "true"
   uart_presence_output_disabled: "true"
+  # Can be: "box", "slider" or "auto"
+  number_input_seconds: "slider"
+  number_input_distance_m: "slider"
+  number_input_distance_cm: "slider"
 
 esphome:
   name: "${name}"
@@ -255,7 +259,7 @@ number:
     step: 10
     restore_value: true
     unit_of_measurement: cm
-    mode: slider
+    mode: ${number_input_distance_cm}
     set_action:
       - switch.turn_off: mmwave_sensor
       - delay: 1s
@@ -279,7 +283,7 @@ number:
     step: 10
     restore_value: true
     unit_of_measurement: cm
-    mode: slider
+    mode: ${number_input_distance_cm}
     set_action:
       - switch.turn_off: mmwave_sensor
       - delay: 1s
@@ -304,7 +308,7 @@ number:
     step: 1
     restore_value: true
     unit_of_measurement: seconds
-    mode: slider
+    mode: ${number_input_seconds}
     set_action:
       - switch.turn_off: mmwave_sensor
       - delay: 1s
@@ -327,7 +331,7 @@ number:
     step: 0.5
     restore_value: true
     unit_of_measurement: seconds
-    mode: slider
+    mode: ${number_input_seconds}
     set_action:
       - switch.turn_off: mmwave_sensor
       - delay: 1s
@@ -351,7 +355,7 @@ number:
     step: 0.1
     restore_value: true
     unit_of_measurement: m
-    mode: slider
+    mode: ${number_input_distance_m}
     set_action:
       - switch.turn_off: mmwave_sensor
       - delay: 1s

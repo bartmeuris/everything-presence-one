@@ -82,7 +82,7 @@ number:
     max_value: 800
     step: 15
     initial_value: 0
-    mode: slider
+    mode: ${number_input_distance_cm}
     unit_of_measurement: cm
     optimistic: true
     entity_category: config
@@ -96,7 +96,7 @@ number:
     max_value: 800
     step: 15
     initial_value: 315
-    mode: slider
+    mode: ${number_input_distance_cm}
     unit_of_measurement: cm
     optimistic: true
     entity_category: config
@@ -110,7 +110,7 @@ number:
     max_value: 800
     step: 15
     initial_value: 0
-    mode: slider
+    mode: ${number_input_distance_cm}
     unit_of_measurement: cm
     optimistic: true
     entity_category: config
@@ -124,7 +124,7 @@ number:
     max_value: 800
     step: 15
     initial_value: 0
-    mode: slider
+    mode: ${number_input_distance_cm}
     unit_of_measurement: cm
     optimistic: true
     entity_category: config
@@ -138,7 +138,7 @@ number:
     max_value: 800
     step: 15
     initial_value: 0
-    mode: slider
+    mode: ${number_input_distance_cm}
     unit_of_measurement: cm
     optimistic: true
     entity_category: config
@@ -152,7 +152,7 @@ number:
     max_value: 800
     step: 15
     initial_value: 0
-    mode: slider
+    mode: ${number_input_distance_cm}
     unit_of_measurement: cm
     optimistic: true
     entity_category: config
@@ -166,7 +166,7 @@ number:
     max_value: 800
     step: 15
     initial_value: 0
-    mode: slider
+    mode: ${number_input_distance_cm}
     unit_of_measurement: cm
     optimistic: true
     entity_category: config
@@ -180,7 +180,7 @@ number:
     max_value: 800
     step: 15
     initial_value: 0
-    mode: slider
+    mode: ${number_input_distance_cm}
     unit_of_measurement: cm
     optimistic: true
     entity_category: config

@@ -66,7 +66,7 @@ number:
     step: 5
     restore_value: true
     unit_of_measurement: seconds
-    mode: slider
+    mode: ${number_input_seconds}
     set_action:
       - logger.log: "Off latency set"
       - switch.turn_off: mmwave_sensor
@@ -91,7 +91,7 @@ number:
     step: 0.25
     restore_value: true
     unit_of_measurement: seconds
-    mode: slider
+    mode: ${number_input_seconds}
     set_action:
       - logger.log: "On latency set"
       - switch.turn_off: mmwave_sensor

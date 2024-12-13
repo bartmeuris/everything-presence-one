@@ -12,7 +12,10 @@ substitutions:
   uart_target_output_disabled: "true"
   uart_presence_output_disabled: "true"
   log_level: "ERROR"
-
+  # Can be: "box", "slider" or "auto"
+  number_input_seconds: "slider"
+  number_input_distance_m: "slider"
+  number_input_distance_cm: "slider"
 update:
   - platform: http_request
     id: update_http_request

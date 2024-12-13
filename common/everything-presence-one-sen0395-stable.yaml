@@ -33,7 +33,7 @@ number:
     step: 15
     restore_value: true
     unit_of_measurement: cm
-    mode: slider
+    mode: ${number_input_distance_cm}
     set_action:
       - switch.turn_off: mmwave_sensor
       - delay: 1s

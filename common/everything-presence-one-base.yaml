@@ -157,7 +157,7 @@ number:
     step: 5
     restore_value: true
     unit_of_measurement: seconds
-    mode: slider
+    mode: ${number_input_seconds}
 
   - platform: template
     name: PIR off latency
@@ -171,7 +171,7 @@ number:
     step: 1
     restore_value: true
     unit_of_measurement: seconds
-    mode: slider
+    mode: ${number_input_seconds}
 
   - platform: template
     name: "Temperature Offset"
