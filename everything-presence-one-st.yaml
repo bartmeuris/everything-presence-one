@@ -281,7 +281,7 @@ number:
     min_value: 1
     max_value: 60
     initial_value: 15
-    optimistic: false
+    optimistic: true
     step: 1
     restore_value: true
     unit_of_measurement: seconds
@@ -294,7 +294,7 @@ number:
     min_value: 0
     max_value: 60
     initial_value: 0
-    optimistic: false
+    optimistic: true
     step: 0.5
     restore_value: true
     unit_of_measurement: seconds
