@@ -31,7 +31,7 @@ button:
     name: "Set mmWave Latency"
     id: set_mmwave_latency
     entity_category: config
-    set_action:
+    on_press:
       - logger.log: "On latency set"
       - switch.turn_off: mmwave_sensor
       - delay: 1s
