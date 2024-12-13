@@ -154,7 +154,7 @@ number:
     max_value: 600
     initial_value: 15
     optimistic: true
-    step: 5
+    step: 1
     restore_value: true
     unit_of_measurement: seconds
     mode: ${number_input_seconds}

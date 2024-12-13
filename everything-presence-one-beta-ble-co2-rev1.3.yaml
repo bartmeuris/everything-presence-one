@@ -14,6 +14,7 @@ substitutions:
   log_level: "ERROR"
   # Can be: "box", "slider" or "auto"
   number_input_seconds: "slider"
+  number_input_seconds_steps: 6
   number_input_distance_m: "slider"
   number_input_distance_cm: "slider"
 
