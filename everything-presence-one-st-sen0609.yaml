@@ -53,7 +53,7 @@ light:
     name: "ESP32 Status LED"
     pin: GPIO32
     entity_category: config
-    restore_value: true
+    restore_mode: RESTORE_DEFAULT_OFF
 
 i2c:
   sda: 26
