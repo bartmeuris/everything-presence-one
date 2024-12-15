@@ -48,6 +48,7 @@ light:
     pin: GPIO32
     entity_category: config
     disabled_by_default: False
+    restore_value: true
 
 sensor:
   - platform: shtcx
